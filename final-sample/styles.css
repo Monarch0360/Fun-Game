@@ -1,0 +1,49 @@
+.main-container{
+    text-align: center;
+}
+
+.tile {
+    height: 64px;
+    width: 64px;
+    border: 1px solid blue;
+    background-color: #92d474;
+    cursor: pointer;
+}
+
+.main-tile{
+    border: 1px solid blue;
+    cursor: pointer;
+}
+
+.map{
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+.tile-container {
+    margin: 0px 20px;
+}
+
+.main-title{
+    font-size: xx-large;
+    font-weight: 700;
+}
+
+.secondary-title{
+    font-size: x-large;
+}
+
+.create-button{
+    padding: 8px 21px;
+    color: darkseagreen;
+    border-color: darkseagreen;
+}
+
+.borderClass{
+    border-style: dashed;
+}
+
+.selectedTile{
+    border-color: blueviolet;
+    border:2px solid blueviolet;
+}
